@@ -3,7 +3,7 @@ import "./Weight.css";
 import "./Queries.css";
 import trashbin from "../img/trash-bin.png";
 
-const Weight = ({ weight, key, deleteWeightComponent }) => {
+const Weight = ({ weight, deleteWeightComponent }) => {
   const [today, setToday] = useState(new Date());
   const [time, setTime] = useState(today.getHours() + ":" + today.getMinutes());
   const [dateDay, setDateDay] = useState(today.getDate());

@@ -68,7 +68,6 @@ const MainContainer = () => {
   const submitWeight = () => {
     setChartData([...chartData, { name: inputWeight, uv: inputWeight }]);
     setWeight([{ value: inputWeight, key: uuidv4() }, ...weight]);
-    console.log(chartData);
     setDefaultMessageWeight("");
     closedClass();
   };
@@ -85,7 +84,7 @@ const MainContainer = () => {
   const renderWeight = () => {
     return [...weight].map((e, index) => {
       return (
-        <FadeIn className="fade-in">
+        <FadeIn className="fade-in" key={uuidv4()}>
           <Weight
             weight={weight[index].value}
             key={weight[index].key}
