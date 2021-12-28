@@ -1,0 +1,39 @@
+.weight-box {
+  margin-bottom: 15px;
+  margin-left: 3%;
+
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* grid-template-columns: 0.2fr 0.6fr 0.2fr;
+  justify-content: space-between;
+  align-items: center; */
+  height: 50px;
+  width: 90%;
+  background: whitesmoke;
+  border-radius: 10px;
+
+  transition: background 0.5s;
+}
+
+.weight-box:hover {
+  background: rgb(204, 204, 204);
+}
+
+.weight-box p {
+  font-size: 14pt;
+  margin: 0;
+}
+
+.weight-box-date {
+  color: rgb(204, 204, 204);
+}
+
+.trash-bin {
+  height: 15px;
+  margin: 0;
+  align-self: center;
+  justify-self: right;
+}

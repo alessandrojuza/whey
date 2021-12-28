@@ -1,0 +1,135 @@
+@media screen and (max-width: 1361px) {
+  .weight-box p {
+    font-size: 11pt;
+    margin: 0;
+  }
+  .logo {
+    width: 180px;
+  }
+
+  .div-3 h1,
+  .div-4 h1,
+  .div-5 h1 {
+    font-size: 14pt;
+  }
+
+  .div-3,
+  .div-4,
+  .div-5 p {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .weight-box {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+  }
+
+  .food-fact-container {
+    width: 80%;
+    height: 70%;
+
+    overflow: scroll;
+  }
+
+  .refresh-button {
+    margin-top: 20px;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-rows: 0.2fr 0.8fr;
+  }
+  .logo {
+    margin: 15px 0 15px 0;
+  }
+
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-3 h1,
+  .div-4 h1,
+  .div-5 h1 {
+    font-size: 12pt;
+  }
+
+  .div-3,
+  .div-4,
+  .div-5 p {
+    font-size: 10pt;
+  }
+  .modal-add-weight {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .food-fact-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.8fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "sub-1 sub-1"
+      "sub-2 sub-3"
+      ". .";
+
+    height: 100%;
+  }
+
+  .logo {
+    margin: 25px 0 25px 0;
+  }
+  .div-1 {
+    display: none;
+  }
+
+  .div-2 {
+    background: #23252f;
+    border-top-left-radius: 30px;
+  }
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    width: 100%;
+    padding-right: 10%;
+  }
+  .div-4 {
+    border: none;
+    display: none;
+  }
+  .quote-container {
+    display: none;
+  }
+  .div-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #23252f;
+  }
+
+  .div-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .weight-history-container {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
